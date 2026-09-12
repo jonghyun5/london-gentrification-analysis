@@ -1,0 +1,65 @@
+---
+title: "london_EDA"
+author: "2022-12747 Oh, Jonghyun"
+date: "2025-04-10"
+output: pdf_document
+---
+
+```{r, include = F}
+source("london_eda.R")
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+```
+
+### Loading & Merging Data
+
+London census 2021 data merged with `postal_codes` and `house_prices` data.
+
+*Brief Intro to `postal_codes` & `house_prices`*
+
+```{r}
+head(postal_codes)
+colnames(postal_codes)
+head(house_prices)
+colnames(house_prices)
+```
+
+YEAR 2021 DATA ALL MERGED.
+
+```{r}
+head(london_2021_supra)
+colnames(london_2021_supra)
+```
+
+YEAR 2011 DATA ALL MERGED.
+
+```{r}
+head(london_2011_supra)
+colnames(london_2011_supra)
+```
+
+### Some visualisations...
+
+```{r echo = F, fig.cap = "London Zone Map"}
+ldn_zone_map
+```
+
+
+```{r echo = F, fig.cap = "2021 Property Prices"}
+price_2021_map
+```
+
+```{r echo = F, fig.cap = "NSSEC by LSOA Code"}
+NSSEC_2021_map
+```
+
+```{r echo = F, fig.cap = "Biggest Ethnic Minority by LSOA Code"}
+ethnicity_2021_map
+```
+
+
+
+```{r}
+
+```
