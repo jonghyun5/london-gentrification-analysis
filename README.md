@@ -11,7 +11,7 @@ We applied a published gentrification classification methodology (Hwang's Measur
 - Educational attainment growth
 - Housing price growth (per sqm)
 
-to classify all 701 London wards as gentrified / not gentrified, then trained classifiers (Lasso Logistic Regression, Random Forest, XGBoost) to identify which demographic and housing features best predict gentrification status.
+We used this measure to classify all 701 London wards as gentrified / not gentrified, then trained classifiers (Lasso Logistic Regression, Random Forest, XGBoost) to identify which demographic and housing features best predict gentrification status.
 
 ### Key Findings
 - Our classification independently overlapped with **79.4%** of wards reported as gentrified by an external publication (Tower Hamlets area analysis).
