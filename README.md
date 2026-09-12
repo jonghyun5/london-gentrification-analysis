@@ -2,18 +2,16 @@
 
 A data mining class project analyzing gentrification patterns across Greater London by combining housing price data, census demographics, and a published classification methodology. **Placed 2nd out of 9 teams** (50% of final course grade).
 
-Team 4: 박태현, 오종현, 이예찬, 박창현
-
 ## Project Overview
 
-The project started from a London housing-price Kaggle dataset, then was reframed to test a real socioeconomic question: **where has gentrification actually occurred in London, and what socioeconomic factors distinguish gentrified wards from non-gentrified ones?**
+The project started from a London housing-price Kaggle dataset, then was reframed to test a socioeconomic question: **where has gentrification actually occurred in London, and what socioeconomic factors distinguish gentrified wards from non-gentrified ones?**
 
 We applied a published gentrification classification methodology (Hwang's Measure, based on Freeman et al. 2023/2024, *Urban Affairs Review*) combining:
 - Income growth thresholds relative to city-wide medians
 - Educational attainment growth
 - Housing price growth (per sqm)
 
-...to classify all 701 London wards as gentrified / not gentrified, then trained classifiers (Lasso Logistic Regression, Random Forest, XGBoost) to identify which demographic and housing features best predict gentrification status.
+to classify all 701 London wards as gentrified / not gentrified, then trained classifiers (Lasso Logistic Regression, Random Forest, XGBoost) to identify which demographic and housing features best predict gentrification status.
 
 ### Key Findings
 - Our classification independently overlapped with **79.4%** of wards reported as gentrified by an external publication (Tower Hamlets area analysis).
