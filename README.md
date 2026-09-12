@@ -28,19 +28,15 @@ See `docs/Final_Presentation.pdf` for the full write-up and `docs/Project_Propos
 │   ├── Project_Proposal.pdf         Initial proposal (housing price prediction framing)
 │   ├── Final_Presentation.pdf       Final deliverable (gentrification framing)
 │   ├── London_EDA_Report.pdf        Exploratory data analysis report
-│   ├── London_Variable_Notes.pdf    Variable dictionary / dataset notes
-│   ├── UK_Administrative_Divisions_Notes.pdf   Background on UK ward/borough structure
-│   ├── Spatial_Clustering_Memo.pdf  Internal working notes on clustering approach
-│   └── House_Price_Model_Memo.pdf   Internal working notes on price modeling
+│   └── London_Variable_Notes.pdf    Variable dictionary / dataset notes
 │
 ├── code/                    Analysis code
 │   ├── london_eda.R / .Rmd          Main EDA and data wrangling (R)
 │   ├── Clustering_2011.ipynb        Ward clustering, 2011 data (Python)
 │   ├── GBM.ipynb                    Gradient boosting feature importance
-│   ├── GBM_Clustering_2021_Price_pct_change.ipynb
-│   └── exploratory_nba_eda.R / exploratory_basketball_eda.Rmd
-│                                     Early-stage exploration of an alternative
-│                                     (ultimately unused) NBA dataset direction
+│   └── GBM_Clustering_2021_Price_pct_change.ipynb
+│    
+│                                   
 │
 ├── results/
 │   ├── html/                 Rendered analysis notebooks (clustering, GBM,
@@ -55,7 +51,6 @@ See `docs/Final_Presentation.pdf` for the full write-up and `docs/Project_Propos
     │   ├── qualifications_health/
     │   ├── ethnicity_language/
     │   └── housing/
-    ├── kaggle_house_price/   Kaggle London house price data (parquet)
     └── other/                Postcode districts, gentrification ward labels,
                                EU referendum results, parliamentary profile data
 ```
